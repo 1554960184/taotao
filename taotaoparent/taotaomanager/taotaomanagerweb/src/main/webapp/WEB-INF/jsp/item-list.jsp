@@ -23,6 +23,7 @@
 
     function getSelectionsIds(){
     	var itemList = $("#itemList");
+    	console.log(itemList);
     	var sels = itemList.datagrid("getSelections");
     	var ids = [];
     	for(var i in sels){

@@ -372,7 +372,7 @@ _6e+="rowspan=\""+col.rowspan+"\" ";
 }
 if(col.colspan){
 _6e+="colspan=\""+col.colspan+"\" ";
-}
+}nn
 var td=$("<td "+_6e+"></td>").appendTo(tr);
 if(col.checkbox){
 td.attr("field",col.field);

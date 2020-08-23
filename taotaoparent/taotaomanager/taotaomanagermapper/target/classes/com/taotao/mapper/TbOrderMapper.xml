@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.taotao.com.taotao.mapper.TbOrderMapper" >
+<mapper namespace="com.taotao.mapper.TbOrderMapper" >
   <resultMap id="BaseResultMap" type="com.taotao.pojo.TbOrder" >
     <id column="order_id" property="orderId" jdbcType="VARCHAR" />
     <result column="payment" property="payment" jdbcType="VARCHAR" />

@@ -5,7 +5,7 @@
     <parent>
         <artifactId>taotao-manager</artifactId>
         <groupId>com.taotao</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>taotao-manager-service</artifactId>
@@ -13,12 +13,7 @@
         <dependency>
             <groupId>com.taotao</groupId>
             <artifactId>taotao-manager-mapper</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.taotao</groupId>
-            <artifactId>taotao-manager-mapper</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!-- Spring -->
         <dependency>

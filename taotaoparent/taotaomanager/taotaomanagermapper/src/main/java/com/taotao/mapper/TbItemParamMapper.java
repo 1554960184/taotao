@@ -4,11 +4,9 @@ import com.taotao.pojo.TbItemParam;
 import com.taotao.pojo.TbItemParamExample;
 import org.apache.ibatis.annotations.Param;
 
-
 import java.util.List;
 
 public interface TbItemParamMapper {
-
     int countByExample(TbItemParamExample example);
 
     int deleteByExample(TbItemParamExample example);

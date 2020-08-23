@@ -7,13 +7,13 @@
           <element id="module-output" name="taotao-manager-web" />
         </element>
         <element id="directory" name="lib">
-          <element id="archive" name="taotao-manager-service-1.0-SNAPSHOT.jar">
+          <element id="archive" name="taotao-manager-service-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="taotao-manager-service" />
           </element>
-          <element id="archive" name="taotao-manager-mapper-1.0-SNAPSHOT.jar">
+          <element id="archive" name="taotao-manager-mapper-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="taotao-manager-mapper" />
           </element>
-          <element id="archive" name="taotao-manager-pojo-1.0-SNAPSHOT.jar">
+          <element id="archive" name="taotao-manager-pojo-0.0.1-SNAPSHOT.jar">
             <element id="module-output" name="taotao-manager-pojo" />
           </element>
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.8" />
@@ -49,7 +49,9 @@
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.7" />
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.6" />
-          <element id="library" level="project" name="Maven: com.taotao:taotao-common:1.0-SNAPSHOT" />
+          <element id="archive" name="taotao-common-0.0.1-SNAPSHOT.jar">
+            <element id="module-output" name="taotao-common" />
+          </element>
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.5" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
           <element id="library" level="project" name="Maven: commons-net:commons-net:3.3" />

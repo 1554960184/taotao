@@ -51,6 +51,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Maven: com.taotao:taotao-common:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="taotao-common" />
   </component>
 </module>

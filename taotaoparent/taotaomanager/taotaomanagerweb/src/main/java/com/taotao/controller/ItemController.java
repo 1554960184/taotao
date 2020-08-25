@@ -23,17 +23,17 @@ public class ItemController {
         return tbItem;
     }
 
-    @RequestMapping("item/list")
+    @RequestMapping("/item/list")
     @ResponseBody
     public EUDataGridResult getItemList(Integer page,Integer rows){
         EUDataGridResult result = itemService.getItemList(page,rows);
         return result;
     }
 
-    @RequestMapping(value = "item/save", method = RequestMethod.POST)
+    @RequestMapping(value = "/item/save", method = RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult createItem(TbItem tbItem){
-        TaotaoResult taotaoResult = itemService.createItem(tbItem);
+    public TaotaoResult createItem(TbItem tbItem,String desc,String itemParams) throws Exception {
+        TaotaoResult taotaoResult = itemService.createItem(tbItem,desc,itemParams);
         return taotaoResult;
     }
 }

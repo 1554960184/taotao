@@ -7,7 +7,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class TestFtp {
-    @Test
     public void testFtpClient() throws IOException {
 //        创建一个FtpClient对象
         FTPClient ftpClient = new FTPClient();

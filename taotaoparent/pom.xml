@@ -11,6 +11,8 @@
     <modules>
         <module>taotaocommon</module>
         <module>taotaomanager</module>
+        <module>taotaorest</module>
+        <module>taotaoportal</module>
     </modules>
     <!-- 集中定义依赖版本号 -->
     <properties>

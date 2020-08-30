@@ -16,6 +16,8 @@
         <module name="taotaomanagerpojo" />
         <module name="taotaomanagerservice" />
         <module name="taotaomanagerweb" />
+        <module name="taotaoportal" />
+        <module name="taotaorest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +28,8 @@
       <module name="taotao-manager-service" target="1.7" />
       <module name="taotao-manager-web" target="1.7" />
       <module name="taotao-parent" target="1.7" />
+      <module name="taotaoportal" target="1.7" />
+      <module name="taotaorest" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

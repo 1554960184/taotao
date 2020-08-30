@@ -23,6 +23,7 @@ public class PictureController {
     public String pictureUpload(MultipartFile uploadFile){
         Map result = pictureService.uploadPicture(uploadFile);
         String json = JsonUtils.objectToJson(result);
+        System.out.println("uploadFile-------"+json);
         return json;
     }
 }

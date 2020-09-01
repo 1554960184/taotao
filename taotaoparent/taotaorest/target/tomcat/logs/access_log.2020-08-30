@@ -15,3 +15,5 @@
 127.0.0.1 - - [30/Aug/2020:17:23:46 +0800] "GET /rest/content/list/89 HTTP/1.1" 200 1313 http-bio-8089-exec-1 8
 127.0.0.1 - - [30/Aug/2020:17:23:55 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 30478 http-bio-8089-exec-3 157
 127.0.0.1 - - [30/Aug/2020:17:25:42 +0800] "GET /rest/content/list/89 HTTP/1.1" 200 994 http-bio-8089-exec-5 7
+127.0.0.1 - - [30/Aug/2020:20:18:30 +0800] "GET /rest/content/list/89 HTTP/1.1" 200 994 http-bio-8089-exec-1 554
+127.0.0.1 - - [30/Aug/2020:20:18:32 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 30478 http-bio-8089-exec-3 297
